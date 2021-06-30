@@ -28,4 +28,4 @@ def ui_test_1():
     assert out == "-1"
 
     driver.close()
-    print('Test 2 passed')
+    print('Test 1 passed')

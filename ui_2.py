@@ -28,4 +28,4 @@ def ui_test_2():
     assert out == "gsbu"
 
     driver.close()
-    print('Test 1 passed')
+    print('Test 2 passed')
