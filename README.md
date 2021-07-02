@@ -1,6 +1,6 @@
 # UI_selenium_tests
 
-Набор функций по тестированию UI для тестового задания. Для **mozilla firefox** и **Python 3.8**.
+Набор функций по тестированию UI для тестового задания. Требуется **mozilla firefox** и **Python 3.8**.
 
 Каждая функция в отдельном файле. Для запуска: `pytest3 -v`
 Изначально браузер запускается в свернутом виде. Для браузера на полный экран выполнить инструкции в файле **conftest.py**
@@ -11,7 +11,7 @@
 
 В тесте 3 задача ввести текст в поле для числа и проверить, вывел ли сайт ошибку.
 
-##### Пакеты:
+##### Необходимые пакеты:
 
 Pytest `sudo apt install python3-pytest`
 
@@ -19,6 +19,6 @@ Selenium `pip install selenium`
 
 Pytest-selenium `pip install pytest-selenium` для фикстур селениума
 
-##### Доп. софт:
+##### Необходимый софт:
 
 geckodriver `apt-get install firefox-geckodriver`
