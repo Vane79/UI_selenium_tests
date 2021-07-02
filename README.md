@@ -14,6 +14,10 @@
 
 Selenium
 
+pip install selenium
+
 Доп. софт:
 
 geckodriver
+
+apt-get install firefox-geckodriver
