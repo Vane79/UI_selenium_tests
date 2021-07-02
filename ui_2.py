@@ -6,8 +6,8 @@ from selenium.webdriver.support.ui import Select
 def ui_test_2():
     try:
         driver = webdriver.Firefox()
-        # driver.maximize_window()
-        driver.minimize_window()
+        # driver.maximize_window()  # раскомментить эту строку и
+        driver.minimize_window()  # закомментить эту строку для браузера в полный экран
         driver.implicitly_wait(1)
 
         driver.get('https://testsheepnz.github.io/BasicCalculator.html')
